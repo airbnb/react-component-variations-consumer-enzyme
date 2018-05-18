@@ -1,0 +1,19 @@
+{
+  "name": "react-component-variations-consumer-enzyme",
+  "version": "0.0.0",
+  "description": "enzyme consumer for react-component-variations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/airbnb/react-component-variations-consumer-enzyme.git"
+  },
+  "author": "Jordan Harband <ljharb@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/airbnb/react-component-variations-consumer-enzyme/issues"
+  },
+  "homepage": "https://github.com/airbnb/react-component-variations-consumer-enzyme#readme"
+}
