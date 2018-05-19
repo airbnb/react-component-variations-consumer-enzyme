@@ -2,8 +2,12 @@
   "name": "react-component-variations-consumer-enzyme",
   "version": "0.0.0",
   "description": "enzyme consumer for react-component-variations",
-  "main": "index.js",
+  "main": "lib/",
   "scripts": {
+    "clean": "rimraf lib",
+    "postclean": "mkdirp lib",
+    "prebuild": "npm run clean",
+    "build": "babel src -d lib",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +19,13 @@
   "bugs": {
     "url": "https://github.com/airbnb/react-component-variations-consumer-enzyme/issues"
   },
-  "homepage": "https://github.com/airbnb/react-component-variations-consumer-enzyme#readme"
+  "homepage": "https://github.com/airbnb/react-component-variations-consumer-enzyme#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-transform-replace-object-assign": "^1.0.0",
+    "babel-preset-airbnb": "^2.5.1",
+    "mkdirp": "^0.5.1",
+    "rimraf": "^2.6.2"
+  }
 }
