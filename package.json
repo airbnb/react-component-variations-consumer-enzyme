@@ -39,11 +39,11 @@
   },
   "dependencies": {
     "object.assign": "^4.1.0",
-    "react-component-variations": "^0.2.0"
+    "react-component-variations": "^0.2.0 || ^0.3.0"
   },
   "peerDependencies": {
     "enzyme": "^3.3.0",
     "react": "*",
-    "react-component-variations": "^0.2.0"
+    "react-component-variations": "^0.2.0 || ^0.3.0"
   }
 }
