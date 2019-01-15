@@ -1,6 +1,6 @@
 {
   "name": "react-component-variations-consumer-enzyme",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "enzyme consumer for react-component-variations",
   "main": "lib/",
   "scripts": {
